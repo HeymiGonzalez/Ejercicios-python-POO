@@ -1,1 +1,1 @@
-# Ejercicos-python-POO
+# Ejercicios-python-POO
