@@ -6,7 +6,7 @@ class Aspirante:
     def usoAND(self):
         califcacion1 = float(input('Ingrese calificacion 1: '))
         calificacion2 = float(input('Ingrese calificacion 2: '))
-        if (califcacion1 >= 80) and (calificacion2 >= 80):
+        if (califcacion1 > 80) and (calificacion2 > 80):
             print('Aceptado')
         else:
             print('Rechazado')
@@ -14,7 +14,7 @@ class Aspirante:
     def usoOR(self):
         calificacion1 = float(input('Ingrese calificacion 1: '))
         calificacion2 = float(input('Ingrese calificacion 2: '))
-        if (calificacion1 >= 80) or (calificacion2 >= 80):
+        if (calificacion1 > 90) or (calificacion2 > 90):
             print('Aceptado')
         else:
             print('Rechazado')
